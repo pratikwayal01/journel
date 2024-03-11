@@ -1,0 +1,105 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:wght@400&family=Poppins:wght@300&family=Quando&display=swap');
+
+/* Body and general styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Change background color */
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #99b8d9; /* Bootstrap primary color */
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+/* Form and Entries */
+.entry-form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.entries {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #8b8686;
+  padding-top: 20px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc; /* Adding a border for better visibility */
+  padding: 8px;
+  resize: vertical; /* Allowing vertical resizing */
+}
+
+/* Buttons */
+button {
+  padding: 8px 15px;
+  background-color: #007bff; /* Bootstrap primary color */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Adding transition effect */
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+button:focus {
+  outline: none; /* Removing default focus outline */
+}
+
+/* Button Animation */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+button:hover {
+  animation: pulse 0.5s ease infinite; /* Adding animation on hover */
+}
+
+h2 {
+  font-family: 'Quando', serif;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  h2 {
+    text-align: center;
+  }
+}
+/*  */
+/* Additional CSS for centering the navbar */
+.container {
+  margin-top: 20px; /* Adjust margin as needed */
+}
