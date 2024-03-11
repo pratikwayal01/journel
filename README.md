@@ -20,4 +20,4 @@ My Journal is a simple web application that allows users to keep track of their 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/my-journal.git
+   git clone https://github.com/pratikwayal01/journel.git
